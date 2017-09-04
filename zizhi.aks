@@ -151,8 +151,8 @@
     "searchMore": ".pagelink a",
     "searchMoreHref": "@a@0@abs:href",
     "searchUrl": "http://www.00sy.net/Book/Search.aspx?SearchKey=%s&SearchClass=1",
-	"contentReplace":"[{\"first\":\"手机用户请访问:00sy.net\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":false}]",
-	"contentRemove":"[\"script\",\"table\",\"td\",\"tr\"]",
+    "contentReplace":"[{\"first\":\"手机用户请访问:00sy.net\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":false}]",
+    "contentRemove":"[\"script\",\"table\",\"td\",\"tr\"]",
     "searchUrls": [],
     "type": 0
 }
