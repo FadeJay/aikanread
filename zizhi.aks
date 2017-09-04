@@ -1211,7 +1211,7 @@
     "chapterName": "@@@",
     "chapterUrl": "@@@abs:href",
     "content": "@div#content@0@"
-}，
+},
 {		
     "bookAuthor": "@.result-game-item-info-tag span@1@",	
     "bookCategory": "@.result-game-item-info-tag span@3@",	
