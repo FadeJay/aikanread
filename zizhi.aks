@@ -735,5 +735,30 @@
     "enabled": true,
     "order": 0,
     "type": 0
+},
+{
+    "name": "梧州中文台",
+    "host": "http://www.wzzw.tv",
+    "indexUrl": "/",
+    "searchUrl": "http://www.wzzw.tv/search.htm?keyword=%s",
+    "searchEncoding": "utf-8",
+    "books": ".list-group-item:gt(0)",
+    "bookName": "@.col-xs-3 a@0@",
+    "bookUrl": "@.col-xs-3 a@0@abs:href",
+    "bookAuthor": "@.col-xs-2@0@",
+    "bookLastChapterName": "@.col-xs-2 span@0@",
+    "searchEncoding": "utf-8",
+    "detailChaptersUrl": "@[property=og:novel:read_url]@0@content",
+    "detailBookIcon":"@[property=og:image]@0@content",
+    "detailBookName": "@[property=og:novel:book_name]@0@content",
+    "detailBookAuthor":"@[property=og:novel:author]@0@content",
+    "detailBookCategory": "@[property=og:novel:category]@0@content",
+    "detailBookDesc": "@[property=og:description]@0@content",
+    "detailBookUpdateTime": "@[property=og:novel:update_time]@0@content",
+    "detailBookLastChapterName": "@[property=og:novel:latest_chapter_name]@0@content",
+    "chapters": "#chapters-list li a",
+    "chapterName": "@@@",
+    "chapterUrl": "@@@abs:href",
+    "content": "@#txtContent@0@"
 }
 ]
