@@ -2385,7 +2385,7 @@
     "chapterName": "@@@",
     "chapterUrl": "@@@abs:href",
     "content": "@#contents@0@",
-	"contentRemove": "[\"div\",\"a\"]",
+    "contentRemove": "[\"div\",\"a\"]",
     "contentReplace":"[{\"first\":\"本书来自.*\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":false}]",
     "checked": false,
     "enabled": true,
