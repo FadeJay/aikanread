@@ -2395,7 +2395,7 @@
 {
     "name": "乡土小说",
     "host": "http://www.xcxs.org/",
-    "indexUrl": "/"
+    "indexUrl": "/",
     "searchUrl": "http://www.xcxs.org/modules/article/search.php?searchkey=%s",
     "books": "#alistbox",
     "bookName": "@.title h2 a@0@",
@@ -2411,7 +2411,7 @@
     "detailChaptersUrl": "@div.lb_mulu.chapterList ul li a@10@abs:href",
     "detailBookIcon":"@#content table tr td table tr td a img@5@abs:src",
     "contentRemove": "[\"div\",\"a\"]",
-    "contentReplace": "[{\"first\":\"手机用户请访问http://m.piaotian.net\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":true}]"		
+    "contentReplace": "[{\"first\":\"手机用户请访问http://m.piaotian.net\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":true}]",		
     "chapters": ".ListRow li a",
     "chapterName": "@@@",
     "chapterUrl": "@@@abs:href",
