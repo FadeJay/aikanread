@@ -68,7 +68,7 @@
 {
     "name": "乡土小说",
     "host": "http://www.xcxs.org/",
-    "indexUrl": "/"
+    "indexUrl": "/",
     "searchUrl": "http://www.xcxs.org/modules/article/search.php?searchkey=%s",
     "books": "#alistbox",
     "bookName": "@.title h2 a@0@",
