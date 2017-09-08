@@ -64,5 +64,30 @@
     "enabled": true,
     "order": 0,
     "type": 0
+},
+{
+    "name": "乡土小说",
+    "host": "http://www.xcxs.org/",
+    "indexUrl": "/"
+    "searchUrl": "http://www.xcxs.org/modules/article/search.php?searchkey=%s",
+    "books": "#alistbox",
+    "bookName": "@.title h2 a@0@",
+    "bookUrl": "@.title h2 a@0@abs:href",
+    "bookAuthor": "@.title span@0@:作者：(.*)",
+    "bookDesc": "@.intro@0@",
+    "bookIcon": "@.pic a img@0@abs:src",
+    "bookLastChapterName": "@.sys li a@0@",
+    "bookCategory": "@.lastupdate@0@:栏目：(.*)",
+    "bookUpdateTime": "@.odd@2@",
+    "searchEncoding": "gbk",
+    "encoding": "gbk",
+    "detailChaptersUrl": "@div.lb_mulu.chapterList ul li a@10@abs:href",
+    "detailBookIcon":"@#content table tr td table tr td a img@5@abs:src",
+    "contentRemove": "[\"div\",\"a\"]",
+    "contentReplace": "[{\"first\":\"手机用户请访问http://m.piaotian.net\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":true}]"		
+    "chapters": ".ListRow li a",
+    "chapterName": "@@@",
+    "chapterUrl": "@@@abs:href",
+    "content": "@#content@0@"
 }
 ]
