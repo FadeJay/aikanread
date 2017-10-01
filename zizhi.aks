@@ -2858,5 +2858,30 @@
     "chapterName": "@@@",
     "chapterUrl": "@@@abs:href",
     "content": "@#htmlContent@0@"
+},
+{
+    "name": "看书阁",
+    "host": "http://www.kanshuge.la/",
+    "indexUrl": "/",
+    "searchUrl": "http://www.kanshuge.la/modules/article/searche.php?searchkey=%s",
+    "books": ".item-pic",
+    "bookName": "@.item-pic h3 a@0@",
+    "bookUrl": "@.item-pic h3 a@0@abs:href",
+    "bookAuthor": "@.item-pic p i@0@",
+    "bookDesc": "@.item-pic p@2@",
+    "bookIcon": "@.item-pic a img@0@abs:src",
+    "bookLastChapterName": "@.item-pic p a@@",
+    "bookCategory": "@.infos span@1@",
+    "bookUpdateTime": "@.item-pic p i@2@",
+    "searchEncoding": "gbk",
+    "encoding": "gbk",
+    "detailChaptersUrl": "@.book-link a@1@abs:href",
+    "detailBookIcon":"@.synopsisArea_detail img@0@abs:src",
+    "contentRemove": "[\"div\",\"script\",\"img\"]",
+    "contentReplace": "[{\"first\":\"(座位小说网:www.zuowe.com)\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":true}]",		
+    "chapters": ".chapterlist dd a",
+    "chapterName": "@@@",
+    "chapterUrl": "@@@abs:href",
+    "content": "@#BookText@0@"
 }
 ]
