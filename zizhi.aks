@@ -2883,5 +2883,30 @@
     "chapterName": "@@@",
     "chapterUrl": "@@@abs:href",
     "content": "@#BookText@0@"
+},
+{
+    "name": "九九书盟",
+    "host": "http://www.99shumeng.net/",
+    "indexUrl": "/",
+    "searchUrl": "http://www.99shumeng.net/modules/article/search.php?searchtype=articlename&searchkey=%s",
+    "books": ".info",
+    "bookName": "@.info h2 b a@0@",
+    "bookUrl": "@.info h2 b a@0@abs:href",
+    "bookAuthor": "@.info li font@0@",
+    "bookDesc": "@.info li@0@:简介：(.*)",
+    "bookIcon": "@.info a img@0@abs:src",
+    "bookLastChapterName": "@.info h2 a@1@",
+    "bookCategory": "@.info li font@1@",
+    "bookUpdateTime": "@.info li font@3@",
+    "searchEncoding": "gbk",
+    "encoding": "gbk",
+    "detailChaptersUrl": "@.reader@0@abs:href",
+    "detailBookIcon":"@.synopsisArea_detail img@0@abs:src",
+    "contentRemove": "[\"div\",\"script\",\"img\"]",
+    "contentReplace": "[{\"first\":\"(座位小说网:www.zuowe.com)\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":true}]",		
+    "chapters": ".ccss a",
+    "chapterName": "@@@",
+    "chapterUrl": "@@@abs:href",
+    "content": "@#content@0@"
 }
 ]
