@@ -3000,5 +3000,32 @@
     "contentRemove": "[\"div\",\"a\",\"h4\"]",
     "contentReplace":"[{\"first\":\"一秒记住【云轩阁小说网\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":true},{\"first\":\"】为您提供最快更新！\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":true},{\"first\":\"本站重要通知:请使用本站的免费小说app,、破防盗版、更新快,会员同步书架,请关注微信公众号 gegegengxin (按住三秒复制) 下载免费阅读器!!手机用户请浏览m.yxgxz.com 阅读，更优质的阅读体验。\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":true},{\"first\":\"手机同步阅读请访问 m.yxgxz.com\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":true},{\"first\":\"】\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":true}]",
     "searchUrl": "http://www.73xs.cc/modules/article/search.php?searchtype=articlename&searchkey=%s&action=login&submit=搜索"
+},
+{
+    "bookAuthor": "@.odd@1@",
+    "bookCategory": "@.s1@0@:\\[(.*)\\]",
+    "bookDesc": "@div.li-right p@0@",
+    "bookIcon": "@li.clearfix a img@0@abs:src",
+    "bookLastChapterName": "@.even@0@",
+    "bookName": "@.odd a@0@",
+    "bookUpdateTime": "@.odd@2@",
+    "bookUrl": "@.odd a@0@abs:href",
+    "books": ".grid tr:has(td)",
+    "chapterName": "@@@",
+    "chapterUrl": "@@@abs:href",
+    "chapters": ".mulu_list li a",
+    "detailChaptersUrl":"@a.button.read@0@abs:href",
+    "detailBookIcon": "@.imgbox img@0@abs:src",
+    "detailBookAuthor":"@p.book-stats b@0@",
+    "checked": false,
+    "content": "@#htmlContent@0@",
+    "host": "http://www.55dushu.com/",
+    "indexUrl": "/",
+    "name": "55读书小说网",
+    "encoding": "gbk",
+    "searchEncoding": "gbk",
+    "contentRemove": "[\"div\",\"a\",\"h4\"]",
+    "contentReplace":"[{\"first\":\"一秒记住【云轩阁小说网\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":true},{\"first\":\"】为您提供最快更新！\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":true},{\"first\":\"本站重要通知:请使用本站的免费小说app,、破防盗版、更新快,会员同步书架,请关注微信公众号 gegegengxin (按住三秒复制) 下载免费阅读器!!手机用户请浏览m.yxgxz.com 阅读，更优质的阅读体验。\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":true},{\"first\":\"手机同步阅读请访问 m.yxgxz.com\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":true},{\"first\":\"】\",\"name\":\"\",\"second\":\"\",\"enabled\":true,\"id\":0,\"noRegular\":true}]",
+    "searchUrl": "http://www.55dushu.com/modules/article/search.php?searchtype=articlename&searchkey=%s&submit=搜索"
 }
 ]
