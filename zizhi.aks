@@ -407,7 +407,7 @@
     "chapterName": "@@@",
     "chapterUrl": "@@@abs:href",
     "chapters": ".chapterlist a",
-	"detailChaptersUrl":"@.ulrow li a@0@abs:href",
+    "detailChaptersUrl":"@.ulrow li a@0@abs:href",
     "checked": false,
     "content": "@div#chapter_content@0@",
     "host": "http://www.83zw.com/",
@@ -4056,5 +4056,29 @@
     "enabled": true,
     "order": 0,
     "type": 0
+},
+{
+    "bookAuthor": "@.odd@1@",
+    "bookCategory": "@.state a@1@",
+    "bookDesc": "@.words p@2@",
+    "bookIcon": "@.pic a img@0@abs:src",
+    "bookLastChapterName": "@.even@0@",
+    "bookName": "@.odd@0@",
+    "bookUpdateTime": "@.odd@2@",
+    "bookUrl": "@.odd a@0@abs:href",
+    "books": ".grid tbody tr:has(td)",
+    "chapterName": "@@@",
+    "chapterUrl": "@@@abs:href",
+    "chapters": ".ml_list ul li a",
+    "detailChaptersUrl":"@.ulrow li a@0@abs:href",
+    "checked": false,
+    "content": "@#articlecontent@0@",
+    "host": "http://www.16kxsw.com/",
+    "indexUrl": "/",
+    "name": "16K小说网",
+    "encoding": "gbk",
+    "searchEncoding": "gbk",
+    "contentRemove": "[\"div\"]",
+    "searchUrl": "http://www.16kxsw.com/modules/article/search.php?searchkey=%s"
 }
 ]
